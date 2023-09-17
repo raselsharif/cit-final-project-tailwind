@@ -1,161 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- slick slider  -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-  </head>
-  <body>
-    <!-- menu section -->
-    <section
-      class="z-20 text-white uppercase font-medium absolute left-0 top-0 w-full"
-    >
-      <nav class="container mx-auto py-14 flex justify-between">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- slick slider  -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <!-- tailwindcss -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- menu section -->
+  <section class="z-20 text-white uppercase font-medium absolute left-0 top-0 w-full">
+    <nav class="container mx-auto py-14 flex justify-between">
+      <div>
+        <img class="w-40" src="./images/logo.png" alt="logo" />
+      </div>
+      <ul class="flex gap-20">
+        <li>
+          <a class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all" href="#">Home</a>
+        </li>
+        <li>
+          <a class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all" href="about.html"
+            target="_blank">About</a>
+        </li>
+        <li>
+          <a class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all" href="#">Home</a>
+        </li>
+        <li>
+          <a class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all" href="#">Home</a>
+        </li>
+        <li>
+          <a class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all" href="#">Home</a>
+        </li>
+      </ul>
+
+      <ul class="flex gap-6 items-center">
+        <li class="w-8 h-8 flex justify-center items-center"></li>
+        <li class="border rounded-full border-white w-8 h-8 flex justify-center items-center"></li>
+        <li class="border rounded-full border-white w-8 h-8 flex justify-center items-center"></li>
+        <li class="w-8 h-8 flex justify-center items-center"></li>
+      </ul>
+    </nav>
+  </section>
+
+  <!-- banner section -->
+
+  <section class="relative">
+    <div class="banner">
+      <div class="bg-[url('./images/banner01.jpg')] bg-no-repeat bg-center bg-cover text-center pt-60 pb-72">
+        <h2 class="font-medium text-3xl mb-5 text-orange-500">
+          Start to learning today
+        </h2>
+        <h1 class="font-bold text-7xl mb-16 text-white w-4/5 mx-auto leading-snug">
+          Explore Interests and Career With Courses
+        </h1>
+        <button class="bg-orange-500 text-white py-2 px-4 hover:bg-slate-900 transition-all rounded-lg font-medium">
+          FIND COURSES
+        </button>
+      </div>
+      <div class="bg-[url('./images/banner01.jpg')] bg-no-repeat bg-center bg-cover text-center pt-60 pb-72">
+        <h2 class="font-medium text-3xl mb-5 text-orange-500">
+          Start to learning today
+        </h2>
+        <h1 class="font-bold text-7xl mb-16 text-white w-4/5 mx-auto leading-snug">
+          Explore Interests and Career With Courses
+        </h1>
+        <button class="bg-orange-500 text-white py-2 px-4 hover:bg-slate-900 transition-all rounded-lg font-medium">
+          FIND COURSES
+        </button>
+      </div>
+    </div>
+
+    <div class="container mx-auto flex justify-between absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+      <a
+        class="prev bg-orange-500 text-white h-10 w-10 hover:bg-orange-600 transition-all rounded-full cursor-pointer font-medium flex items-center justify-center">
+        <i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i>
+      </a>
+      <a
+        class="next bg-orange-500 text-white h-10 w-10 hover:bg-orange-600 transition-all rounded-full cursor-pointer font-medium flex items-center justify-center">
+        <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+      </a>
+    </div>
+
+    <div class="container mx-auto grid grid-cols-3 gap-4 absolute bottom-20 left-1/2 -translate-x-1/2">
+      <div class="flex gap-3 items-center bg-slate-900 p-7 text-white">
+        <img class="w-12" src="./images/bannerLogo01.png" />
         <div>
-          <img class="w-40" src="./images/logo.png" alt="logo" />
-        </div>
-        <ul class="flex gap-20">
-          <li>
-            <a
-              class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all"
-              href="#"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all"
-              href="#"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all"
-              href="#"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all"
-              href="#"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="text-orange-500 hover:text-orange-500 cursor-pointer transition-all"
-              href="#"
-              >Home</a
-            >
-          </li>
-        </ul>
-
-        <ul class="flex gap-6 items-center">
-          <li class="w-8 h-8 flex justify-center items-center"></li>
-          <li
-            class="border rounded-full border-white w-8 h-8 flex justify-center items-center"
-          ></li>
-          <li
-            class="border rounded-full border-white w-8 h-8 flex justify-center items-center"
-          ></li>
-          <li class="w-8 h-8 flex justify-center items-center"></li>
-        </ul>
-      </nav>
-    </section>
-
-    <!-- banner section -->
-
-    <section class="relative">
-      <div id="banner">
-        <div
-          class="bg-[url('./images/banner01.jpg')] bg-no-repeat bg-center bg-cover text-center pt-60 pb-72"
-        >
-          <h2 class="font-medium text-3xl mb-5 text-orange-500">
-            Start to learning today
-          </h2>
-          <h1
-            class="font-bold text-7xl mb-16 text-white w-4/5 mx-auto leading-snug"
-          >
-            Explore Interests and Career With Courses
-          </h1>
-          <button
-            class="bg-orange-500 text-white py-2 px-4 hover:bg-slate-900 transition-all rounded-lg font-medium"
-          >
-            FIND COURSES
-          </button>
-        </div>
-        <div
-          class="bg-[url('./images/banner01.jpg')] bg-no-repeat bg-center bg-cover text-center pt-60 pb-72"
-        >
-          <h2 class="font-medium text-3xl mb-5 text-orange-500">
-            Start to learning today
-          </h2>
-          <h1
-            class="font-bold text-7xl mb-16 text-white w-4/5 mx-auto leading-snug"
-          >
-            Explore Interests and Career With Courses
-          </h1>
-          <button
-            class="bg-orange-500 text-white py-2 px-4 hover:bg-slate-900 transition-all rounded-lg font-medium"
-          >
-            FIND COURSES
-          </button>
+          <h2 class="text-2xl font-bold">5,320 online courses</h2>
+          <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
         </div>
       </div>
+      <div class="flex gap-3 items-center bg-slate-900 p-7 text-white">
+        <img class="w-12" src="./images/bannerLogo01.png" />
+        <div>
+          <h2 class="text-2xl font-bold">5,320 online courses</h2>
+          <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        </div>
+      </div>
+      <div class="flex gap-3 items-center bg-slate-900 p-7 text-white">
+        <img class="w-12" src="./images/bannerLogo01.png" />
+        <div>
+          <h2 class="text-2xl font-bold">5,320 online courses</h2>
+          <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- main section -->
+
+  <!-- Popular Online Categories section  -->
+  <section class="container mx-auto my-20">
+    <h3 class="font-medium text-center text-orange-500 mb-3">
+      TOP CATEGORIES
+    </h3>
+    <h2 class="font-bold text-4xl text-center text-slate-900 mb-10">
+      Popular Online Categories
+    </h2>
+
+    <!-- ========== cards ======  -->
+    <div class="grid grid-cols-3 gap-5">
       <div
-        class="container mx-auto flex justify-between absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"
-      >
-        <a
-          class="bg-orange-500 text-white h-10 w-10 hover:bg-orange-600 transition-all rounded-full cursor-pointer font-medium flex items-center justify-center"
-        >
-        </a>
-        <a
-          class="bg-orange-500 text-white h-10 w-10 hover:bg-orange-600 transition-all rounded-full cursor-pointer font-medium flex items-center justify-center"
-        >
-        </a>
+        class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/course01.jpg" />
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
+          <img class="w-12" src="./images/bannerLogo01.png" />
+          <div class="">
+            <a href="#">
+              <h2 class="text-2xl font-bold hover:text-orange-600 cursor-pointer">
+                5,320 online courses
+              </h2>
+            </a>
+            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+          </div>
+        </div>
       </div>
-
       <div
-        class="container mx-auto grid grid-cols-3 gap-4 absolute bottom-20 left-1/2 -translate-x-1/2"
-      >
-        <div class="flex gap-3 items-center bg-slate-900 p-7 text-white">
+        class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/course01.jpg" />
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
           <img class="w-12" src="./images/bannerLogo01.png" />
-          <div>
-            <h2 class="text-2xl font-bold">5,320 online courses</h2>
-            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
-          </div>
-        </div>
-        <div class="flex gap-3 items-center bg-slate-900 p-7 text-white">
-          <img class="w-12" src="./images/bannerLogo01.png" />
-          <div>
-            <h2 class="text-2xl font-bold">5,320 online courses</h2>
-            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
-          </div>
-        </div>
-        <div class="flex gap-3 items-center bg-slate-900 p-7 text-white">
-          <img class="w-12" src="./images/bannerLogo01.png" />
-          <div>
-            <h2 class="text-2xl font-bold">5,320 online courses</h2>
+          <div class="">
+            <a href="#">
+              <h2 class="text-2xl font-bold hover:text-orange-600 cursor-pointer">
+                5,320 online courses
+              </h2>
+            </a>
             <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
           </div>
         </div>
       </div>
-    </section>
+      <div
+        class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/course01.jpg" />
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
+          <img class="w-12" src="./images/bannerLogo01.png" />
+          <div class="">
+            <a href="#">
+              <h2 class="text-2xl font-bold hover:text-orange-600 cursor-pointer">
+                5,320 online courses
+              </h2>
+            </a>
+            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/course01.jpg" />
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
+          <img class="w-12" src="./images/bannerLogo01.png" />
+          <div class="">
+            <a href="#">
+              <h2 class="text-2xl font-bold hover:text-orange-600 cursor-pointer">
+                5,320 online courses
+              </h2>
+            </a>
+            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/course01.jpg" />
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
+          <img class="w-12" src="./images/bannerLogo01.png" />
+          <div class="">
+            <a href="#">
+              <h2 class="text-2xl font-bold hover:text-orange-600 cursor-pointer">
+                5,320 online courses
+              </h2>
+            </a>
+            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl">
+        <img class="absolute inset-0 w-full h-full object-cover" src="./images/course01.jpg" />
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto">
+          <img class="w-12" src="./images/bannerLogo01.png" />
+          <div class="">
+            <a href="#">
+              <h2 class="text-2xl font-bold hover:text-orange-600 cursor-pointer">
+                5,320 online courses
+              </h2>
+            </a>
+            <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-16">
+      <button
+        class="bg-orange-600 text-white hover:text-slate-900 py-2 px-4 hover:bg-white transition-all rounded-lg font-medium">
+        VIEW ALL CATEGORIES
+      </button>
+    </div>
+  </section>
 
-    <!-- main section -->
-
-    <!-- Popular Online Categories section  -->
-    <section class="container mx-auto my-20">
+  <!-- {/* Explore Popular Courses section  */} -->
+  <section class="py-20 bg-gray-100">
+    <div class="container mx-auto">
       <h3 class="font-medium text-center text-orange-500 mb-3">
         TOP CATEGORIES
       </h3>
@@ -163,731 +240,495 @@
         Popular Online Categories
       </h2>
 
-      <!-- ========== cards ======  -->
-      <div class="grid grid-cols-3 gap-5">
-        <div
-          class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl"
-        >
-          <img
-            class="absolute inset-0 w-full h-full object-cover"
-            src="./images/course01.jpg"
-          />
-          <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div
-            class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto"
-          >
-            <img class="w-12" src="./images/bannerLogo01.png" />
-            <div class="">
-              <a href="#">
-                <h2
-                  class="text-2xl font-bold hover:text-orange-600 cursor-pointer"
-                >
-                  5,320 online courses
-                </h2>
-              </a>
-              <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+      <!-- {/* Cards section  */} -->
+      <div class="grid grid-cols-3 gap-8">
+        <div class="bg-white relative">
+          <div class="overflow-hidden">
+            <img src="./images/card01.jpg" alt="card img" class="hover:scale-110 transition-all duration-700" />
+          </div>
+          <span class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4">Free</span>
+          <div class="px-8 mt-8">
+            <div class="flex gap-2">
+              <ul class="flex gap-2 text-orange-500"></ul>
+              <span>(1 Rating)</span>
+            </div>
+            <a href="#">
+              <h2 class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all">
+                Fitness Development Strategy Buildup Laoreet
+              </h2>
+            </a>
+            <div class="flex justify-between pt-5 pb-8 border-t-2">
+              <div class="flex gap-3 items-center">
+                <span Text="">25 Students</span>
+              </div>
+              <div class="flex gap-3 items-center">
+                <span>6 Lessons</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl"
-        >
-          <img
-            class="absolute inset-0 w-full h-full object-cover"
-            src="./images/course01.jpg"
-          />
-          <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div
-            class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto"
-          >
-            <img class="w-12" src="./images/bannerLogo01.png" />
-            <div class="">
-              <a href="#">
-                <h2
-                  class="text-2xl font-bold hover:text-orange-600 cursor-pointer"
-                >
-                  5,320 online courses
-                </h2>
-              </a>
-              <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        <div class="bg-white relative">
+          <div class="overflow-hidden">
+            <img src="./images/card01.jpg" alt="card img" class="hover:scale-110 transition-all duration-700" />
+          </div>
+          <span class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4">Free</span>
+          <div class="px-8 mt-8">
+            <div class="flex gap-2">
+              <ul class="flex gap-2 text-orange-500"></ul>
+              <span>(1 Rating)</span>
+            </div>
+            <a href="#">
+              <h2 class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all">
+                Fitness Development Strategy Buildup Laoreet
+              </h2>
+            </a>
+            <div class="flex justify-between pt-5 pb-8 border-t-2">
+              <div class="flex gap-3 items-center">
+                <span Text="">25 Students</span>
+              </div>
+              <div class="flex gap-3 items-center">
+                <span>6 Lessons</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl"
-        >
-          <img
-            class="absolute inset-0 w-full h-full object-cover"
-            src="./images/course01.jpg"
-          />
-          <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div
-            class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto"
-          >
-            <img class="w-12" src="./images/bannerLogo01.png" />
-            <div class="">
-              <a href="#">
-                <h2
-                  class="text-2xl font-bold hover:text-orange-600 cursor-pointer"
-                >
-                  5,320 online courses
-                </h2>
-              </a>
-              <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        <div class="bg-white relative">
+          <div class="overflow-hidden">
+            <img src="./images/card01.jpg" alt="card img" class="hover:scale-110 transition-all duration-700" />
+          </div>
+          <span class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4">Free</span>
+          <div class="px-8 mt-8">
+            <div class="flex gap-2">
+              <ul class="flex gap-2 text-orange-500"></ul>
+              <span>(1 Rating)</span>
+            </div>
+            <a href="#">
+              <h2 class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all">
+                Fitness Development Strategy Buildup Laoreet
+              </h2>
+            </a>
+            <div class="flex justify-between pt-5 pb-8 border-t-2">
+              <div class="flex gap-3 items-center">
+                <span Text="">25 Students</span>
+              </div>
+              <div class="flex gap-3 items-center">
+                <span>6 Lessons</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl"
-        >
-          <img
-            class="absolute inset-0 w-full h-full object-cover"
-            src="./images/course01.jpg"
-          />
-          <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div
-            class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto"
-          >
-            <img class="w-12" src="./images/bannerLogo01.png" />
-            <div class="">
-              <a href="#">
-                <h2
-                  class="text-2xl font-bold hover:text-orange-600 cursor-pointer"
-                >
-                  5,320 online courses
-                </h2>
-              </a>
-              <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        <div class="bg-white relative">
+          <div class="overflow-hidden">
+            <img src="./images/card01.jpg" alt="card img" class="hover:scale-110 transition-all duration-700" />
+          </div>
+          <span class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4">Free</span>
+          <div class="px-8 mt-8">
+            <div class="flex gap-2">
+              <ul class="flex gap-2 text-orange-500"></ul>
+              <span>(1 Rating)</span>
+            </div>
+            <a href="#">
+              <h2 class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all">
+                Fitness Development Strategy Buildup Laoreet
+              </h2>
+            </a>
+            <div class="flex justify-between pt-5 pb-8 border-t-2">
+              <div class="flex gap-3 items-center">
+                <span Text="">25 Students</span>
+              </div>
+              <div class="flex gap-3 items-center">
+                <span>6 Lessons</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl"
-        >
-          <img
-            class="absolute inset-0 w-full h-full object-cover"
-            src="./images/course01.jpg"
-          />
-          <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div
-            class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto"
-          >
-            <img class="w-12" src="./images/bannerLogo01.png" />
-            <div class="">
-              <a href="#">
-                <h2
-                  class="text-2xl font-bold hover:text-orange-600 cursor-pointer"
-                >
-                  5,320 online courses
-                </h2>
-              </a>
-              <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        <div class="bg-white relative">
+          <div class="overflow-hidden">
+            <img src="./images/card01.jpg" alt="card img" class="hover:scale-110 transition-all duration-700" />
+          </div>
+          <span class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4">Free</span>
+          <div class="px-8 mt-8">
+            <div class="flex gap-2">
+              <ul class="flex gap-2 text-orange-500"></ul>
+              <span>(1 Rating)</span>
+            </div>
+            <a href="#">
+              <h2 class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all">
+                Fitness Development Strategy Buildup Laoreet
+              </h2>
+            </a>
+            <div class="flex justify-between pt-5 pb-8 border-t-2">
+              <div class="flex gap-3 items-center">
+                <span Text="">25 Students</span>
+              </div>
+              <div class="flex gap-3 items-center">
+                <span>6 Lessons</span>
+              </div>
             </div>
           </div>
         </div>
-        <div
-          class="relative overflow-hidden h-96 pb-6 transition ease-in-out delay-150 duration-300 hover:-translate-y-2 hover:transition-all rounded-xl"
-        >
-          <img
-            class="absolute inset-0 w-full h-full object-cover"
-            src="./images/course01.jpg"
-          />
-          <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div
-            class="flex gap-3 items-end text-white relative h-full w-3/4 mx-auto"
-          >
-            <img class="w-12" src="./images/bannerLogo01.png" />
-            <div class="">
-              <a href="#">
-                <h2
-                  class="text-2xl font-bold hover:text-orange-600 cursor-pointer"
-                >
-                  5,320 online courses
-                </h2>
-              </a>
-              <h3 class="font-normal">Enjoy a variety of fresh topics</h3>
+        <div class="bg-white relative">
+          <div class="overflow-hidden">
+            <img src="./images/card01.jpg" alt="card img" class="hover:scale-110 transition-all duration-700" />
+          </div>
+          <span class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4">Free</span>
+          <div class="px-8 mt-8">
+            <div class="flex gap-2">
+              <ul class="flex gap-2 text-orange-500"></ul>
+              <span>(1 Rating)</span>
+            </div>
+            <a href="#">
+              <h2 class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all">
+                Fitness Development Strategy Buildup Laoreet
+              </h2>
+            </a>
+            <div class="flex justify-between pt-5 pb-8 border-t-2">
+              <div class="flex gap-3 items-center">
+                <span Text="">25 Students</span>
+              </div>
+              <div class="flex gap-3 items-center">
+                <span>6 Lessons</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="text-center mt-16">
-        <button
-          class="bg-orange-600 text-white hover:text-slate-900 py-2 px-4 hover:bg-white transition-all rounded-lg font-medium"
-        >
-          VIEW ALL CATEGORIES
-        </button>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- {/* Explore Popular Courses section  */} -->
-    <section class="py-20 bg-gray-100">
-      <div class="container mx-auto">
-        <h3 class="font-medium text-center text-orange-500 mb-3">
-          TOP CATEGORIES
+  <!-- Offer Running section  -->
+  <section class="grid grid-cols-2">
+    <div class="bg-[url('./images/offer01.jpg')] bg-no-repeat bg-cover bg-center"></div>
+    <div class="bg-[url('./images/offer02.jpg')] bg-no-repeat bg-cover bg-center py-28 pl-8">
+      <h2 class="font-bold text-4xl text-white mb-4">
+        20% Offer Running - Join Today
+      </h2>
+      <p class="text-white mb-4 max-w-lg">
+        We denounce with righteous indignation and dislike men who are so
+        beguiled and demoralized by the charms of pleasure of your moment, so
+        blinded by desire those who fail in their duty through weakness. These
+        cases are perfectly simple and easy every pleasure is to be welcomed
+        and every pain avoided.
+      </p>
+      <button
+        class="bg-orange-500 text-white hover:text-slate-900 hover:bg-white py-2 px-4 transition-all rounded-lg font-medium">
+        FIND COURSES
+      </button>
+    </div>
+  </section>
+
+  <!-- FAQ section -->
+  <section class="grid grid-cols-2 container mx-auto my-24">
+    <div class="px-10 pb-20 pt-10 bg-gray-100">
+      <h2 class="text-3xl text-slate-900 font-medium py-10">
+        Frequently Asked Questions
+      </h2>
+      <div></div>
+    </div>
+    <div class="bg-[url('./images/faq.jpg')] bg-no-repeat bg-center bg-cover"></div>
+  </section>
+
+  <!-- TESTIMONIAL section  -->
+
+  <section class="bg-[url('./images/testimonial.jpg')] bg-no-repeat bg-cover bg-center pt-20 pb-24">
+    <h3 class="font-medium text-center text-orange-500 mb-3">
+      TOP CATEGORIES
+    </h3>
+    <h2 class="font-bold text-4xl text-center text-white mb-10">
+      Popular Online Categories
+    </h2>
+
+    <!-- testimonial cards  -->
+    <div class="testimonial container mx-auto text-white ">
+      <div class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative mb-28">
+        <img class="mx-auto" src="./images/quote.png" />
+        <h3 class="text-3xl leading-10 font-medium italic mt-10">
+          Professional, responsive, and able to keep up with ever-changing
+          demand and tight deadlines: That’s how I would describe Jeramy and
+          his team at The Lorem Ipsum Company. When it comes to content
+          marketing, you’ll definitely get the 5-star treatment from the Lorem
+          Ipsum Company.
         </h3>
-        <h2 class="font-bold text-4xl text-center text-slate-900 mb-10">
-          Popular Online Categories
-        </h2>
+        <div class="absolute -bottom-28 left-1/2 -translate-x-1/2">
+          <img class="mx-auto mb-4" src="./images/testi_pro01.png" />
+          <a class="cursor-pointer text-3xl font-medium" href="#">Alex Fenando</a>
+          <p class="mt-4">English Teacher</p>
+        </div>
+      </div>
+      <div class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative mb-28">
+        <img class="mx-auto" src="./images/quote.png" />
+        <h3 class="text-3xl leading-10 font-medium italic mt-10">
+          Professional, responsive, and able to keep up with ever-changing
+          demand and tight deadlines: That’s how I would describe Jeramy and
+          his team at The Lorem Ipsum Company. When it comes to content
+          marketing, you’ll definitely get the 5-star treatment from the Lorem
+          Ipsum Company.
+        </h3>
+        <div class="absolute -bottom-28 left-1/2 -translate-x-1/2">
+          <img class="mx-auto mb-4" src="./images/testi_pro01.png" />
+          <a class="cursor-pointer text-3xl font-medium" href="#">Alex Fenando</a>
+          <p class="mt-4">English Teacher</p>
+        </div>
+      </div>
+      <div class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative mb-28">
+        <img class="mx-auto" src="./images/quote.png" />
+        <h3 class="text-3xl leading-10 font-medium italic mt-10">
+          Professional, responsive, and able to keep up with ever-changing
+          demand and tight deadlines: That’s how I would describe Jeramy and
+          his team at The Lorem Ipsum Company. When it comes to content
+          marketing, you’ll definitely get the 5-star treatment from the Lorem
+          Ipsum Company.
+        </h3>
+        <div class="absolute -bottom-28 left-1/2 -translate-x-1/2">
+          <img class="mx-auto mb-4" src="./images/testi_pro01.png" />
+          <a class="cursor-pointer text-3xl font-medium" href="#">Alex Fenando</a>
+          <p class="mt-4">English Teacher</p>
+        </div>
+      </div>
+    </div>
 
-        <!-- {/* Cards section  */} -->
-        <div class="grid grid-cols-3 gap-8">
-          <div class="bg-white relative">
-            <div class="overflow-hidden">
-              <img
-                src="./images/card01.jpg"
-                alt="card img"
-                class="hover:scale-110 transition-all duration-700"
-              />
+    <!-- slide buttons   -->
+  </section>
+
+  <!-- NEWS UPDATE section   -->
+  <section class="container mx-auto my-24">
+    <h3 class="font-medium text-center text-orange-500 mb-3">NEWS UPDATE</h3>
+    <h2 class="font-bold text-4xl text-center text-slate-900 mb-16">
+      Latest News & events
+    </h2>
+
+    <!-- {/* news cards  */} -->
+    <div class="grid grid-cols-3 gap-6">
+      <div class="bg-white shadow-lg shadow-gray-300">
+        <div class="overflow-hidden">
+          <img src="./images/news01.jpg" alt="card img" class="w-full" />
+        </div>
+        <div class="px-8 mt-8">
+          <div class="flex justify-between pt-4">
+            <div class="flex gap-3 items-center">
+              <span>Admin</span>
             </div>
-            <span
-              class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4"
-              >Free</span
-            >
-            <div class="px-8 mt-8">
-              <div class="flex gap-2">
-                <ul class="flex gap-2 text-orange-500"></ul>
-                <span>(1 Rating)</span>
-              </div>
-              <a href="#">
-                <h2
-                  class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-                >
-                  Fitness Development Strategy Buildup Laoreet
-                </h2>
-              </a>
-              <div class="flex justify-between pt-5 pb-8 border-t-2">
-                <div class="flex gap-3 items-center">
-                  <span Text="">25 Students</span>
-                </div>
-                <div class="flex gap-3 items-center">
-                  <span>6 Lessons</span>
-                </div>
-              </div>
+            <div class="flex gap-3 items-center">
+              <span>Aug 22, 2023</span>
             </div>
           </div>
-          <div class="bg-white relative">
-            <div class="overflow-hidden">
-              <img
-                src="./images/card01.jpg"
-                alt="card img"
-                class="hover:scale-110 transition-all duration-700"
-              />
-            </div>
-            <span
-              class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4"
-              >Free</span
-            >
-            <div class="px-8 mt-8">
-              <div class="flex gap-2">
-                <ul class="flex gap-2 text-orange-500"></ul>
-                <span>(1 Rating)</span>
-              </div>
-              <a href="#">
-                <h2
-                  class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-                >
-                  Fitness Development Strategy Buildup Laoreet
-                </h2>
+          <a class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all" href="#">
+            <h2 Text="">High school program starting soon 2021</h2>
+          </a>
+          <p>
+            the acquisition of knowledge, skills, values befs, and habits.
+            Educational methods include teach ing, training, storytelling
+          </p>
+          <div class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
+            <div class="flex gap-3 items-center">
+              <a class="cursor-pointer" href="#">
+                <span class="ml-2 hover:text-orange-500">Collage</span>
               </a>
-              <div class="flex justify-between pt-5 pb-8 border-t-2">
-                <div class="flex gap-3 items-center">
-                  <span Text="">25 Students</span>
-                </div>
-                <div class="flex gap-3 items-center">
-                  <span>6 Lessons</span>
-                </div>
-              </div>
             </div>
-          </div>
-          <div class="bg-white relative">
-            <div class="overflow-hidden">
-              <img
-                src="./images/card01.jpg"
-                alt="card img"
-                class="hover:scale-110 transition-all duration-700"
-              />
-            </div>
-            <span
-              class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4"
-              >Free</span
-            >
-            <div class="px-8 mt-8">
-              <div class="flex gap-2">
-                <ul class="flex gap-2 text-orange-500"></ul>
-                <span>(1 Rating)</span>
-              </div>
-              <a href="#">
-                <h2
-                  class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-                >
-                  Fitness Development Strategy Buildup Laoreet
-                </h2>
-              </a>
-              <div class="flex justify-between pt-5 pb-8 border-t-2">
-                <div class="flex gap-3 items-center">
-                  <span Text="">25 Students</span>
-                </div>
-                <div class="flex gap-3 items-center">
-                  <span>6 Lessons</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-white relative">
-            <div class="overflow-hidden">
-              <img
-                src="./images/card01.jpg"
-                alt="card img"
-                class="hover:scale-110 transition-all duration-700"
-              />
-            </div>
-            <span
-              class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4"
-              >Free</span
-            >
-            <div class="px-8 mt-8">
-              <div class="flex gap-2">
-                <ul class="flex gap-2 text-orange-500"></ul>
-                <span>(1 Rating)</span>
-              </div>
-              <a href="#">
-                <h2
-                  class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-                >
-                  Fitness Development Strategy Buildup Laoreet
-                </h2>
-              </a>
-              <div class="flex justify-between pt-5 pb-8 border-t-2">
-                <div class="flex gap-3 items-center">
-                  <span Text="">25 Students</span>
-                </div>
-                <div class="flex gap-3 items-center">
-                  <span>6 Lessons</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-white relative">
-            <div class="overflow-hidden">
-              <img
-                src="./images/card01.jpg"
-                alt="card img"
-                class="hover:scale-110 transition-all duration-700"
-              />
-            </div>
-            <span
-              class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4"
-              >Free</span
-            >
-            <div class="px-8 mt-8">
-              <div class="flex gap-2">
-                <ul class="flex gap-2 text-orange-500"></ul>
-                <span>(1 Rating)</span>
-              </div>
-              <a href="#">
-                <h2
-                  class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-                >
-                  Fitness Development Strategy Buildup Laoreet
-                </h2>
-              </a>
-              <div class="flex justify-between pt-5 pb-8 border-t-2">
-                <div class="flex gap-3 items-center">
-                  <span Text="">25 Students</span>
-                </div>
-                <div class="flex gap-3 items-center">
-                  <span>6 Lessons</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bg-white relative">
-            <div class="overflow-hidden">
-              <img
-                src="./images/card01.jpg"
-                alt="card img"
-                class="hover:scale-110 transition-all duration-700"
-              />
-            </div>
-            <span
-              class="bg-orange-500 text-white font-medium py-1 px-3 rounded-md absolute top-4 right-4"
-              >Free</span
-            >
-            <div class="px-8 mt-8">
-              <div class="flex gap-2">
-                <ul class="flex gap-2 text-orange-500"></ul>
-                <span>(1 Rating)</span>
-              </div>
-              <a href="#">
-                <h2
-                  class="my-5 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-                >
-                  Fitness Development Strategy Buildup Laoreet
-                </h2>
-              </a>
-              <div class="flex justify-between pt-5 pb-8 border-t-2">
-                <div class="flex gap-3 items-center">
-                  <span Text="">25 Students</span>
-                </div>
-                <div class="flex gap-3 items-center">
-                  <span>6 Lessons</span>
-                </div>
-              </div>
+            <div class="flex gap-3 items-center">
+              <a class="cursor-pointer hover:text-orange-500"> Read More </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Offer Running section  -->
-    <section class="grid grid-cols-2">
-      <div
-        class="bg-[url('./images/offer01.jpg')] bg-no-repeat bg-cover bg-center"
-      ></div>
-      <div
-        class="bg-[url('./images/offer02.jpg')] bg-no-repeat bg-cover bg-center py-28 pl-8"
-      >
-        <h2 class="font-bold text-4xl text-white mb-4">
-          20% Offer Running - Join Today
+      <div class="bg-white shadow-lg shadow-gray-300">
+        <div class="overflow-hidden">
+          <img src="./images/news01.jpg" alt="card img" class="w-full" />
+        </div>
+        <div class="px-8 mt-8">
+          <div class="flex justify-between pt-4">
+            <div class="flex gap-3 items-center">
+              <span>Admin</span>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span>Aug 22, 2023</span>
+            </div>
+          </div>
+          <a class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all" href="#">
+            <h2 Text="">High school program starting soon 2021</h2>
+          </a>
+          <p>
+            the acquisition of knowledge, skills, values befs, and habits.
+            Educational methods include teach ing, training, storytelling
+          </p>
+          <div class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
+            <div class="flex gap-3 items-center">
+              <a class="cursor-pointer" href="#">
+                <span class="ml-2 hover:text-orange-500">Collage</span>
+              </a>
+            </div>
+            <div class="flex gap-3 items-center">
+              <a class="cursor-pointer hover:text-orange-500"> Read More </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg shadow-gray-300">
+        <div class="overflow-hidden">
+          <img src="./images/news01.jpg" alt="card img" class="w-full" />
+        </div>
+        <div class="px-8 mt-8">
+          <div class="flex justify-between pt-4">
+            <div class="flex gap-3 items-center">
+              <span>Admin</span>
+            </div>
+            <div class="flex gap-3 items-center">
+              <span>Aug 22, 2023</span>
+            </div>
+          </div>
+          <a class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all" href="#">
+            <h2 Text="">High school program starting soon 2021</h2>
+          </a>
+          <p>
+            the acquisition of knowledge, skills, values befs, and habits.
+            Educational methods include teach ing, training, storytelling
+          </p>
+          <div class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
+            <div class="flex gap-3 items-center">
+              <a class="cursor-pointer" href="#">
+                <span class="ml-2 hover:text-orange-500">Collage</span>
+              </a>
+            </div>
+            <div class="flex gap-3 items-center">
+              <a class="cursor-pointer hover:text-orange-500"> Read More </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section  -->
+  <footer class="bg-slate-950 mt-60 pt-40 relative">
+    <div
+      class="container mx-auto bg-slate-900 grid grid-cols-2 gap-8 p-16 items-center absolute -top-28 left-2/4 -translate-x-2/4">
+      <div class="text-white flex">
+        <h2 class="text-4xl font-bold leading-none">
+          Subscribe to Newsletter
         </h2>
-        <p class="text-white mb-4 max-w-lg">
-          We denounce with righteous indignation and dislike men who are so
-          beguiled and demoralized by the charms of pleasure of your moment, so
-          blinded by desire those who fail in their duty through weakness. These
-          cases are perfectly simple and easy every pleasure is to be welcomed
-          and every pain avoided.
-        </p>
-        <button
-          class="bg-orange-500 text-white hover:text-slate-900 hover:bg-white py-2 px-4 transition-all rounded-lg font-medium"
-        >
-          FIND COURSES
+      </div>
+      <div>
+        <input type="text" class="w-3/4 px-8 py-6" />
+        <button class="px-8 py-6 bg-orange-500 text-white font-medium hover:bg-orange-600">
+          Submit
         </button>
       </div>
-    </section>
+    </div>
 
-    <!-- FAQ section -->
-    <section class="grid grid-cols-2 container mx-auto my-24">
-      <div class="px-10 pb-20 pt-10 bg-gray-100">
-        <h2 class="text-3xl text-slate-900 font-medium py-10">
-          Frequently Asked Questions
-        </h2>
-        <div></div>
+    <div class="container mx-auto grid grid-cols-4 gap-10 text-white pb-24 border-b border-gray-400">
+      <div>
+        <img src="./images/logo.png" />
+        <p class="mt-8">
+          We denounce with righteous indi gnation and dislike men who are so
+          beguiled and demoralized by the charms of pleasure of your moment,
+          so blinded by desire those who fail weakness.
+        </p>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+        </ul>
       </div>
-      <div
-        class="bg-[url('./images/faq.jpg')] bg-no-repeat bg-center bg-cover"
-      ></div>
-    </section>
-
-    <!-- TESTIMONIAL section  -->
-
-    <section
-      class="bg-[url('./images/testimonial.jpg')] bg-no-repeat bg-cover bg-center pt-20 pb-56"
-    >
-      <h3 class="font-medium text-center text-orange-500 mb-3">
-        TOP CATEGORIES
-      </h3>
-      <h2 class="font-bold text-4xl text-center text-white mb-10">
-        Popular Online Categories
-      </h2>
-
-      <!-- testimonial cards  -->
-      <div class="container mx-auto text-white grid grid-cols-2 gap-5">
-        <div
-          class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative"
-        >
-          <img class="mx-auto" src="./images/quote.png" />
-          <h3 class="text-3xl leading-10 font-medium italic mt-10">
-            Professional, responsive, and able to keep up with ever-changing
-            demand and tight deadlines: That’s how I would describe Jeramy and
-            his team at The Lorem Ipsum Company. When it comes to content
-            marketing, you’ll definitely get the 5-star treatment from the Lorem
-            Ipsum Company.
-          </h3>
-          <div class="absolute -bottom-28 left-1/2 -translate-x-1/2">
-            <img class="mx-auto mb-4" src="./images/testi_pro01.png" />
-            <a class="cursor-pointer text-3xl font-medium" href="#"
-              >Alex Fenando</a
-            >
-            <p class="mt-4">English Teacher</p>
-          </div>
-        </div>
-        <div
-          class="bg-slate-900 bg-opacity-50 text-center px-10 pt-10 pb-28 relative"
-        >
-          <img class="mx-auto" src="./images/quote.png" />
-          <h3 class="text-3xl leading-10 font-medium italic mt-10">
-            Professional, responsive, and able to keep up with ever-changing
-            demand and tight deadlines: That’s how I would describe Jeramy and
-            his team at The Lorem Ipsum Company. When it comes to content
-            marketing, you’ll definitely get the 5-star treatment from the Lorem
-            Ipsum Company.
-          </h3>
-          <div class="absolute -bottom-28 left-1/2 -translate-x-1/2">
-            <img class="mx-auto mb-4" src="./images/testi_pro01.png" />
-            <a class="cursor-pointer text-3xl font-medium" href="#"
-              >Alex Fenando</a
-            >
-            <p class="mt-4">English Teacher</p>
-          </div>
-        </div>
+      <!--  -->
+      <div>
+        <h3
+          class="font-bold relative after:absolute after:content-[''] after:w-8 after:h-1 after:bg-orange-600 after:-bottom-2 after:left-0 mb-12">
+          ADDRESS
+        </h3>
+        <ul class="flex flex-col gap-3">
+          <li>374 William S Canning Blvd, River MA 2721, USA</li>
+          <li>
+            <a href="(+880)155-69569">(+880)155-69569</a>
+          </li>
+          <li>
+            <a href="support@rstheme.com">support@rstheme.com</a>
+          </li>
+        </ul>
       </div>
-
-      <!-- slide buttons   -->
-    </section>
-
-    <!-- NEWS UPDATE section   -->
-    <section class="container mx-auto my-24">
-      <h3 class="font-medium text-center text-orange-500 mb-3">NEWS UPDATE</h3>
-      <h2 class="font-bold text-4xl text-center text-slate-900 mb-16">
-        Latest News & events
-      </h2>
-
-      <!-- {/* news cards  */} -->
-      <div class="grid grid-cols-3 gap-6">
-        <div class="bg-white shadow-lg shadow-gray-300">
-          <div class="overflow-hidden">
-            <img src="./images/news01.jpg" alt="card img" class="w-full" />
-          </div>
-          <div class="px-8 mt-8">
-            <div class="flex justify-between pt-4">
-              <div class="flex gap-3 items-center">
-                <span>Admin</span>
-              </div>
-              <div class="flex gap-3 items-center">
-                <span>Aug 22, 2023</span>
-              </div>
+      <div>
+        <h3
+          class="font-bold relative after:absolute after:content-[&quot;&quot;] after:w-8 after:h-1 after:bg-orange-600 after:-bottom-2 after:left-0 mb-12">
+          COURSES
+        </h3>
+        <ul class="flex flex-col gap-3">
+          <li>
+            <a href="#">Course</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+          </li>
+          <li>
+            <a href="#">Course</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3
+          class="font-bold relative after:absolute after:content-[&quot;&quot;] after:w-8 after:h-1 after:bg-orange-600 after:-bottom-2 after:left-0 mb-12">
+          COURSES
+        </h3>
+        <div class="flex flex-col gap-3">
+          <div class="grid grid-cols-12 gap-2">
+            <div class="col-span-3">
+              <img src="./images/footer01.jpg" />
             </div>
-            <a
-              class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-              href="#"
-            >
-              <h2 Text="">High school program starting soon 2021</h2>
-            </a>
-            <p>
-              the acquisition of knowledge, skills, values befs, and habits.
-              Educational methods include teach ing, training, storytelling
-            </p>
-            <div class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
-              <div class="flex gap-3 items-center">
-                <a class="cursor-pointer" href="#">
-                  <span class="ml-2 hover:text-orange-500">Collage</span>
-                </a>
-              </div>
-              <div class="flex gap-3 items-center">
-                <a class="cursor-pointer hover:text-orange-500"> Read More </a>
-              </div>
+            <div class="col-span-9">
+              <a href="#">University While The Lovely Valley Team Work</a>
+              <p>September 20, 2020</p>
             </div>
           </div>
-        </div>
-        <div class="bg-white shadow-lg shadow-gray-300">
-          <div class="overflow-hidden">
-            <img src="./images/news01.jpg" alt="card img" class="w-full" />
-          </div>
-          <div class="px-8 mt-8">
-            <div class="flex justify-between pt-4">
-              <div class="flex gap-3 items-center">
-                <span>Admin</span>
-              </div>
-              <div class="flex gap-3 items-center">
-                <span>Aug 22, 2023</span>
-              </div>
+          <div class="grid grid-cols-12 gap-2">
+            <div class="col-span-3">
+              <img src="./images/footer01.jpg" />
             </div>
-            <a
-              class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-              href="#"
-            >
-              <h2 Text="">High school program starting soon 2021</h2>
-            </a>
-            <p>
-              the acquisition of knowledge, skills, values befs, and habits.
-              Educational methods include teach ing, training, storytelling
-            </p>
-            <div class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
-              <div class="flex gap-3 items-center">
-                <a class="cursor-pointer" href="#">
-                  <span class="ml-2 hover:text-orange-500">Collage</span>
-                </a>
-              </div>
-              <div class="flex gap-3 items-center">
-                <a class="cursor-pointer hover:text-orange-500"> Read More </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-white shadow-lg shadow-gray-300">
-          <div class="overflow-hidden">
-            <img src="./images/news01.jpg" alt="card img" class="w-full" />
-          </div>
-          <div class="px-8 mt-8">
-            <div class="flex justify-between pt-4">
-              <div class="flex gap-3 items-center">
-                <span>Admin</span>
-              </div>
-              <div class="flex gap-3 items-center">
-                <span>Aug 22, 2023</span>
-              </div>
-            </div>
-            <a
-              class="my-3 text-2xl font-bold hover:text-orange-600 cursor-pointer transition-all"
-              href="#"
-            >
-              <h2 Text="">High school program starting soon 2021</h2>
-            </a>
-            <p>
-              the acquisition of knowledge, skills, values befs, and habits.
-              Educational methods include teach ing, training, storytelling
-            </p>
-            <div class="flex justify-between pt-5 pb-8 border-t-2 mt-5">
-              <div class="flex gap-3 items-center">
-                <a class="cursor-pointer" href="#">
-                  <span class="ml-2 hover:text-orange-500">Collage</span>
-                </a>
-              </div>
-              <div class="flex gap-3 items-center">
-                <a class="cursor-pointer hover:text-orange-500"> Read More </a>
-              </div>
+            <div class="col-span-9">
+              <a href="#">University While The Lovely Valley Team Work</a>
+              <p>September 20, 2020</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- footer section  -->
-    <footer class="bg-slate-950 mt-60 pt-40 relative">
-      <div
-        class="container mx-auto bg-slate-900 grid grid-cols-2 gap-8 p-16 items-center absolute -top-28 left-2/4 -translate-x-2/4"
-      >
-        <div class="text-white flex">
-          <h2 class="text-4xl font-bold leading-none">
-            Subscribe to Newsletter
-          </h2>
-        </div>
-        <div>
-          <input type="text" class="w-3/4 px-8 py-6" />
-          <button
-            class="px-8 py-6 bg-orange-500 text-white font-medium hover:bg-orange-600"
-          >
-            Submit
-          </button>
-        </div>
-      </div>
+    </div>
 
-      <div
-        class="container mx-auto grid grid-cols-4 gap-10 text-white pb-24 border-b border-gray-400"
-      >
-        <div>
-          <img src="./images/logo.png" />
-          <p class="mt-8">
-            We denounce with righteous indi gnation and dislike men who are so
-            beguiled and demoralized by the charms of pleasure of your moment,
-            so blinded by desire those who fail weakness.
-          </p>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Home</a>
-            </li>
-          </ul>
-        </div>
-        <!--  -->
-        <div>
-          <h3
-            class="font-bold relative after:absolute after:content-[''] after:w-8 after:h-1 after:bg-orange-600 after:-bottom-2 after:left-0 mb-12"
-          >
-            ADDRESS
-          </h3>
-          <ul class="flex flex-col gap-3">
-            <li>374 William S Canning Blvd, River MA 2721, USA</li>
-            <li>
-              <a href="(+880)155-69569">(+880)155-69569</a>
-            </li>
-            <li>
-              <a href="support@rstheme.com">support@rstheme.com</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3
-            class="font-bold relative after:absolute after:content-[&quot;&quot;] after:w-8 after:h-1 after:bg-orange-600 after:-bottom-2 after:left-0 mb-12"
-          >
-            COURSES
-          </h3>
-          <ul class="flex flex-col gap-3">
-            <li>
-              <a href="#">Course</a>
-            </li>
-            <li>
-              <a href="#">Course</a>
-            </li>
-            <li>
-              <a href="#">Course</a>
-            </li>
-            <li>
-              <a href="#">Course</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3
-            class="font-bold relative after:absolute after:content-[&quot;&quot;] after:w-8 after:h-1 after:bg-orange-600 after:-bottom-2 after:left-0 mb-12"
-          >
-            COURSES
-          </h3>
-          <div class="flex flex-col gap-3">
-            <div class="grid grid-cols-12 gap-2">
-              <div class="col-span-3">
-                <img src="./images/footer01.jpg" />
-              </div>
-              <div class="col-span-9">
-                <a href="#">University While The Lovely Valley Team Work</a>
-                <p>September 20, 2020</p>
-              </div>
-            </div>
-            <div class="grid grid-cols-12 gap-2">
-              <div class="col-span-3">
-                <img src="./images/footer01.jpg" />
-              </div>
-              <div class="col-span-9">
-                <a href="#">University While The Lovely Valley Team Work</a>
-                <p>September 20, 2020</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="text-white flex justify-between container mx-auto py-7">
+      <div>
+        <Anchor text="© 2020 All Rights Reserved. Developed By RSTheme" />
       </div>
+      <div>
+        <ul class="flex gap-3">
+          <li>
+            <Anchor link="" text="Course" />
+          </li>
+          <li>
+            <Anchor link="" text="Corse Two" />
+          </li>
+          <li>
+            <Anchor link="" text="Single Corse" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
-      <div class="text-white flex justify-between container mx-auto py-7">
-        <div>
-          <Anchor text="© 2020 All Rights Reserved. Developed By RSTheme" />
-        </div>
-        <div>
-          <ul class="flex gap-3">
-            <li>
-              <Anchor link="" text="Course" />
-            </li>
-            <li>
-              <Anchor link="" text="Corse Two" />
-            </li>
-            <li>
-              <Anchor link="" text="Single Corse" />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-    <!-- slick slider  -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="js/script.js"></script>
-    r
-  </body>
+  <!-- jquery plugin -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- slick slider  -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <!-- font awesome  -->
+  <script src="https://kit.fontawesome.com/667aadf96a.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
